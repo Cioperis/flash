@@ -31,8 +31,8 @@
 ## How to run:
 To run **Flash:**
 1. Ensure dependencies are installed.
-2. Update migrations in the console using ```dotnet ef``` update.
-3. Set the local database path inside DataContext.cs.
+2. Set the local database path inside DataContext.cs.
+3. Update migrations in the console using ```dotnet ef database update```.
 4. Build the application using ```dotnet build```.
 5. Optionally, integrate ChatGPT's API key within OpenAIController.cs for enhanced functionality.
 
